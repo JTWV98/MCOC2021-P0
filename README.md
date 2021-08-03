@@ -2,55 +2,40 @@
 
 # Mi computador principal
 
-* Marca/modelo: System 76 Serval WS
+* Marca/modelo: MacBook Pro
 * Tipo: Notebook
-* Año adquisición: 2015
+* Año adquisición: 2012
 * Procesador:
   * Marca/Modelo: Intel Core i7-4790K
-  * Velocidad Base: 4.00 GHz
-  * Velocidad Máxima: 4.40 GHz
-  * Numero de núcleos: 4 
-  * Humero de hilos: 2
+  * Velocidad Base: 2.8 GHz
+  * Velocidad Máxima: 2.8 GHz
+  * Numero de núcleos: 2 
+  * Numero de hilos: 2
   * Arquitectura: x86_64
-  * Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
+  * Set de instrucciones: ---------------
 * Tamaño de las cachés del procesador
-  * L1d: 32KB
-  * L1i: 32KB
-  * L2: 256KB
-  * L3: 8192KB
+  * Caché de nivel 2 (por nucle0): 256KB
+  * Caché de nivel 3: 4MB
 * Memoria 
-  * Total: 32 GB
+  * Total: 12 GB
   * Tipo memoria: DDR3
-  * Velocidad 1867 MHz
-  * Numero de (SO)DIMM: 4
+  * Velocidad 1067 MHz
+  * Numero de (SO)DIMM: 2
 * Tarjeta Gráfica
-  * Marca / Modelo: Nvidia GeForce GTX 980M
-  * Memoria dedicada: 8192 MB
-  * Resolución: 1920 x 1080
+  * Marca / Modelo: ntel HD Graphics 3000
+  * Memoria dedicada: 512 MB
+  * Resolución: 1280 x 800
 * Disco 1: 
-  * Marca: Samsung
+  * Marca: Macintosh
   * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 4
-  * Sistema de archivos: EXT4, swap
-* Disco 2: 
-  * Marca: Samsung
-  * Tipo: SSD
-  * Tamaño: 1TB
+  * Tamaño: 525 GB
   * Particiones: 1
-  * Sistema de archivos: EXT4
-* Disco 3: 
-  * Marca: Samsung
-  * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 1
-  * Sistema de archivos: EXT4
+  * Sistema de archivos: APFS
   
-* Dirección MAC de la tarjeta wifi: 5C:E0:C5:D7:EE:48 
-* Dirección IP (Interna, del router): 192.168.0.129
-* Dirección IP (Externa, del ISP): 190.45.122.34
-* Proveedor internet: VTR Banda Ancha S.A.
-
+* Dirección MAC de la tarjeta wifi:  192.168.10.37
+* Dirección IP (Interna, del router): 192.168.10.1
+* Dirección IP (Externa, del ISP): 255.255.255.0
+* Proveedor internet: VTR S.A.
 
 
 
