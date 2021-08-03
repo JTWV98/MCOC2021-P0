@@ -12,7 +12,7 @@
   * Numero de núcleos: 2 
   * Numero de hilos: 2
   * Arquitectura: x86_64
-  * Set de instrucciones: ---------------
+  * Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
 * Tamaño de las cachés del procesador
   * Caché de nivel 2 (por nucle0): 256KB
   * Caché de nivel 3: 4MB
