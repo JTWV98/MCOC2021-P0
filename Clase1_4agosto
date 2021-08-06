@@ -1,0 +1,38 @@
+
+
+Existen diferentes tipos de procesarodres:
+
+* Procesador morderno -> FPU --> Floating point unit ... se encarga de hacer cosas como multiplicaciones, sumas , etc
+								  Los numeros reales se pueden representar con floats, double, long, donde :
+								  - float -> 2bytes (1 byte = 00000000) -> 0000000000000000 -> 16 bits (float16)
+								  - double -> 4 bytes  00000000000000000000000000000000 -> 32 bits (float32)
+								  - longdouble  -> 8 bytes -> 64 bits (float64)
+
+					  -> IPU --> Integer int8, int16, int32.....
+					  			existen los int que son asignados y no asignados,ejemplos:
+					  			-> int8 (0)000 0000 -> El primet bit intica si es (+) o (-) el numero  con 0 -> (+) y 1 -> (-).
+					  			-> unit8 (unsigned -> no asignado)	son simplemente los 8 bits donde el primer digito se usa para la magnitud del problema.	  
+
+* 1 procesador tiene: - core (nucleo)
+					  - nucleo tiene threads (hilos o procesos) 
+
+- Una operacion de 8*8  es una operacion de floating point operation .
+- Si tengo por ejemplo una frecuencia de procesador de 4.0GHz, esto significa que teoricamente deberia hacer 4*10^9 lo que se  llama flops (floating point operation/ seg)
+
+
+- cosas que influyen empeorando esta capacidad teorica es la jerarquia de memoria:
+  Tiempo de acceso a memoria
+  (+ Lento)
+  -> Buscar cosas en la red
+  -> Cosas del disco duro (hd, ssd, hibrido) -> 10 veces mas rapido que ir a la red
+          (intermedio) -> (Memoria hibrida... memoria del disco duro)
+  -> RAM -> 10 veces mas rapido que ir al disco duro
+  -> Caché -> memoria cercana (incluso dentro) al computador -> existe diferentes niveles de jerarquia de la cache (L1, L2,L3), cada vez mas cercano al procesador (FPU)
+  -> Registros -> sobre esto opera el procesador
+  (+ Rapido)
+
+
+
+
+
+
