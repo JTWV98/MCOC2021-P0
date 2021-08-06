@@ -40,24 +40,25 @@
 
 * Desempeño MATMUL:
 
-
+se cargo la imagen en otro archivo
 
 
 
 * ¿Cómo difiere del gráfico del profesor/ayudante?
-
+se puede ver que mi grafica es mas lineal que la del ayudante, esto puede yaque moi computador no puestra mucha diferencia en las variaciones de tiempo para cada una de las multiplicaciones. de todas maneras se observa que los tiempos del programa del profesor son menores a los mios.
 
 * ¿A qué se pueden deber las diferencias en cada corrida?
-
+ se ve representado de una manera explicita, al moemtno de aumentar el tamaño de cada una de las matrices, en donde se ve el incremento de tiempo al aumentar estas al igual que el aumento de consumo de memoria
 
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
 * ¿Qué versión de python está usando?
-
+3.7
 
 * ¿Qué versión de numpy está usando?
 
+1.16.4
 
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar. 
-
+en el caso del tiempo la frafica no es linal ya que esta depende de la memoria que se utilizaen en el moemtno para la multiplicacion de matrices y para el caso de la memoria utilizada para cada multiplicacion se observa que se van sumando por lo que todos los incrementos seran lineales.
 
 
