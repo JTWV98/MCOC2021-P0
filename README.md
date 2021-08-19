@@ -61,4 +61,22 @@ se puede ver que mi grafica es mas lineal que la del ayudante, esto puede yaque 
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar. 
 en el caso del tiempo la frafica no es linal ya que esta depende de la memoria que se utilizaen en el moemtno para la multiplicacion de matrices y para el caso de la memoria utilizada para cada multiplicacion se observa que se van sumando por lo que todos los incrementos seran lineales.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ENTREGA 3
+
+Para esta entrega se programo y luego se analiso el desempeño de el calculo de la inversa de una matriz tipo de diferentes tamaños, esto se llevo a cabo con dos librerias, la primera fue niumpy en donde se presentaron problemas con que corriera el half(float16) y el longdouble(float128) y la otra libreria fue scipy donde se pusieron a prueba dos casos; overwrite_a=true y overwrite_a=false, esn donde no hubo mayior problema con la corride de los codigos pero se noto un mejor desempeño en el caso del overwrtite_a=true.
+Se puede notar que scipy es una libreria mas efectiva que el numpy ya que esta calcula la inversa en menos tiempo y usa la misma memoria.
+
+¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta.
+
+Para la libreira de scipy.linalg.inv() el programa calcula la inversa mediante el metodo de pivoteo y factorizacion LU, se tiene el caso de scipy overwrite true y false en donde al ser false se calcula la matriz siempre desde cero y al usar true se trabaja con los datos de la matriz ingresada al programa. al usar true se suele tener un proceso mas eficiente.
+el metodo de numpy.linalg.inv() usa un solve en donde se tiene (a,I) siendo "a" la matris e "i" la matriz identidad y se calcula mediente procesos de factorizacion LU de lapacks.
+
+
+¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? Justifique su comentario en base al uso de procesadores y memoria observado durante las corridas. 
+
+
+Al utilizar todos los recursos del pc los programas se lograron desarrollar de una manera rapida. esto se puede ver refeljado en la imagen de desempeño ingresada en el mismo github
+
 
