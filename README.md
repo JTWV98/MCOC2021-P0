@@ -79,4 +79,20 @@ el metodo de numpy.linalg.inv() usa un solve en donde se tiene (a,I) siendo "a" 
 
 Al utilizar todos los recursos del pc los programas se lograron desarrollar de una manera rapida. esto se puede ver refeljado en la imagen de desempeño ingresada en el mismo github
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ENTREGA 4
+
+Parte A
+El caso uno de scipy.linalg.solve fue el que mas se tardo de todos en ambos casos (float y double), al emplear los parametros propuestos en el resto de los casos se logra ver como disminuye el tiempo de respuesta del programa de una manera significativa. el caso 2 fue uno de los que obtuvo menores timepos de respuesta por lo que se podria decir que el assume_a='pos' es una de las mejores opciones  que se tienen.
+
+cabe destacar que los double demoran mas que los float esto se debe a que el float64 utilizar un mayor espacio de memoria que el float 16
+
+
+Parte B
+
+comparando los tiempos con la parte A se tiene que al eigh le cuesta mas solucionar estos problemas matematicos ya que se detecto un incremento de tiempo en la respuesta del prograba muy significativa, se tuvo que reducir el valormaximo de la lista Ns ya que con una matriz de 10000x10000 los tiempos de desempeñi eran muy largos. cabe destacar que los double demoran mas que los float.
+Al utilizar overwrite_a= True or False se obtuvo que el con True se obtienen mejores tiempos que on False.
+
+
+Se puede concluir que los mejores resultados los ubtuve corriendo el scipy.linalg.solve() con el caso dos. Para la parte B el mejor resultado obtuvido fue con driver evd overwrite_a=True. mi pc utilizo 1 procesador para llevar a cabo todos ñlos prpgramas
