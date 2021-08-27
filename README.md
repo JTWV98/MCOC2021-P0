@@ -79,7 +79,7 @@ el metodo de numpy.linalg.inv() usa un solve en donde se tiene (a,I) siendo "a" 
 
 Al utilizar todos los recursos del pc los programas se lograron desarrollar de una manera rapida. esto se puede ver refeljado en la imagen de desempeño ingresada en el mismo github
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ENTREGA 4
 
@@ -95,4 +95,16 @@ comparando los tiempos con la parte A se tiene que al eigh le cuesta mas solucio
 Al utilizar overwrite_a= True or False se obtuvo que el con True se obtienen mejores tiempos que on False.
 
 
-Se puede concluir que los mejores resultados los ubtuve corriendo el scipy.linalg.solve() con el caso dos. Para la parte B el mejor resultado obtuvido fue con driver evd overwrite_a=True. mi pc utilizo 1 procesador para llevar a cabo todos ñlos prpgramas
+Se puede concluir que los mejores resultados los ubtuve corriendo el scipy.linalg.solve() con el caso dos. Para la parte B el mejor resultado obtuvido fue con driver evd overwrite_a=True. mi pc utilizo 1 procesador para llevar a cabo todos los programas.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ENTREGA 5
+
+En esta entrega para el caso de la matriz laplaciana dispersa, se mostro que el desempeño del algoritmo no depende tanto del tamaño, ya que al se una matriz dispersa el programa utiliza muy poco memoria y recursos. Al tener un algoritmo bien optimizado con matrices dispersas los tiempos de respusta son minimos. 
+En las rectas de "Grafica laplacia dispersa" presente en la carpeta de la entrega 5 se muestra la complejidad del proceso en cuanto al exponente de la matiz (N,N).
+
+Para el caso de la matriz lapaciana llena, se muestran mayores usos de memoria, estos se pueden ver presentes en un aumento excesivo en el tiempo de solucion, demorandose 54 seg aproximadanetne en solucionar el matmul. En las rectas de "Grafica laplacia llena" presente en la carpeta de la entrega 5 se muestra la complejidad del proceso al igual que en la matriz laplaciana dispersa..
+
+
