@@ -105,6 +105,30 @@ ENTREGA 5
 En esta entrega para el caso de la matriz laplaciana dispersa, se mostro que el desempeño del algoritmo no depende tanto del tamaño, ya que al se una matriz dispersa el programa utiliza muy poco memoria y recursos. Al tener un algoritmo bien optimizado con matrices dispersas los tiempos de respusta son minimos. 
 En las rectas de "Grafica laplacia dispersa" presente en la carpeta de la entrega 5 se muestra la complejidad del proceso en cuanto al exponente de la matiz (N,N).
 
-Para el caso de la matriz lapaciana llena, se muestran mayores usos de memoria, estos se pueden ver presentes en un aumento excesivo en el tiempo de solucion, demorandose 54 seg aproximadanetne en solucionar el matmul. En las rectas de "Grafica laplacia llena" presente en la carpeta de la entrega 5 se muestra la complejidad del proceso al igual que en la matriz laplaciana dispersa..
+Para el caso de la matriz lapaciana llena, se muestran mayores usos de memoria, estos se pueden ver presentes en un aumento excesivo en el tiempo de solucion, demorandose 54 seg aproximadanetne en solucionar el matmul. En las rectas de "Grafica laplacia llena" presente en la carpeta de la entrega 5 se muestra la complejidad del proceso al igual que en la matriz laplaciana dispersa.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ENTREGA 6
+
+
+CODIGO LAPLACIANA LLENA
+
+
+```AAA```
+
+
+CODIGO LAPLACIANA DISPERSA
+
+
+
+COMPLEJIDAD ALGORITMICA DE SOLVE
+
+
+Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
+¿Como afecta el tamaño de las matrices al comportamiento aparente?
+¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
 
 
