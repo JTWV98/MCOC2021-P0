@@ -130,6 +130,8 @@ def laplaciana_llena(N, dtype):
         
     return(A)
  ```
+ Esta manera de crear la matriz llena no el la mas eficiente que existe pero se logra llevar a cabo bien el programa. 
+ Existe la manera mas efectiva pero no se llego a esta.
 
 CODIGO LAPLACIANA DISPERSA
 
@@ -137,7 +139,8 @@ CODIGO LAPLACIANA DISPERSA
 def laplaciana_dispersa(N,dtype):
     return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)
  ```
-
+Esta manera de crear la matriz dispersa es sumamante eficiente por lo que ayudo de gram amnera a un mejor desempeño
+del programa.
 
 COMPLEJIDAD ALGORITMICA DE SOLVE
 
