@@ -116,11 +116,24 @@ ENTREGA 6
 CODIGO LAPLACIANA LLENA
 
 
-```AAA```
+```def laplaciana_llena(N, dtype):
+    A = zeros((N,N) , dtype=dtype)
+    
+    for i in range(N):
+        A[i,i] = 2
+        for j in range(max(0,i-2),i):
+            if abs(i-j) == 1:
+                A[i,j] = -1
+                A[j,i] = -1
+        
+        
+    return(A)```
 
 
 CODIGO LAPLACIANA DISPERSA
 
+```def laplaciana_dispersa(N,dtype):
+    return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)```
 
 
 COMPLEJIDAD ALGORITMICA DE SOLVE
@@ -131,4 +144,13 @@ Comente las diferencias que ve en el comportamiento de los algoritmos en el caso
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
 
+
+
+COMPLEJIDAD ALGORITMICA DE INV
+
+![REDIMIENTO_INV_LLENA](https://user-images.githubusercontent.com/88339852/132021295-020d9301-806e-4c8c-8e19-37788f5bfa53.png)![RENDIMIENTO_INV_DISPERSA](https://user-images.githubusercontent.com/88339852/132021306-9d8307de-d6b3-4133-85ff-e68d50d0d32f.png)
+Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
+¿Como afecta el tamaño de las matrices al comportamiento aparente?
+¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
 
