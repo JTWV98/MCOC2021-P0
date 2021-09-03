@@ -128,14 +128,13 @@ CODIGO LAPLACIANA LLENA
         
         
     return(A)```
-```def laplaciana_dispersa(N,dtype):
-    return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)```
-``````
+
 CODIGO LAPLACIANA DISPERSA
 
+```def laplaciana_dispersa(N,dtype):
+    return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)```
 
-
-
+``````
 COMPLEJIDAD ALGORITMICA DE SOLVE
 
 Se presentaron problemas con subir imagenes al readme por lo que las graficas estan presentes 
