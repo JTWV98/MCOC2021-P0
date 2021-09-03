@@ -138,6 +138,11 @@ CODIGO LAPLACIANA DISPERSA
 
 COMPLEJIDAD ALGORITMICA DE SOLVE
 
+Se presentaron problemas con subir imagenes al readme por lo que las graficas estan presentes en la carpeta "P6" respectiva a esta entrega
+
+![RENDIMIENTO SOLVE DISPERSA](https://user-images.githubusercontent.com/88339852/132029577-7f72d800-b044-48e2-92f7-a5ecaec68cdd.png)
+![RENDIMIENTO SOLVE LLENA](https://user-images.githubusercontent.com/88339852/132029585-4d03eba0-9fbb-4815-83dd-000a7be46191.png)
+
 
 Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
 ¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
@@ -148,12 +153,27 @@ Comente las diferencias que ve en el comportamiento de los algoritmos en el caso
 
 COMPLEJIDAD ALGORITMICA DE INV
 
-![image](https://user-images.githubusercontent.com/88339852/132021945-f3f6f211-d5cd-49e5-80c2-9db2c4e0767d.png)
+Se presentaron problemas con subir imagenes al readme por lo que las graficas estan presentes en la carpeta "P6" respectiva a esta entrega
 
+![RENDIMIENTO_INV_DISPERSA](https://user-images.githubusercontent.com/88339852/132022835-a30cb183-2fb0-407d-9a4f-9484e792a318.png)
+
+![REDIMIENTO_INV_LLENA](https://user-images.githubusercontent.com/88339852/132022827-da8a3e6d-2808-4c34-b5cb-061d1ae09890.png)
 
 Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+
+- Para el caso de la matriz llena se nota que para el primer caso N el tiempo es bien alto, esot se debe a que es el comienzo del ciclo while por lo que se usa una mayor cantidad  de esfuerzo, al seguir con el caso N(10) se puede notar un timepo de ensamblado super pequeño y a medida que el N aumenta se nota un incremento constante mas o menos del tipo lineal pero con una pendiente notoria. 
+- Para el caso el tiempo de ensamblado de la matriz dispersa se logra apreciar  un menor tiempor en promedio al momento de compararla con la grafica de la matriz llena, en la dispersa se aprecia un leve incremento del tiempo al aumentar el N(), por l que se puede concluir que al aumentar el N para la matriz dispera se nota que el pocesador del computador no requiere de tanto trabajo adicional para ensamblar matrices de mayor tamaño.
+
 ¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
+
+- Para el caso de la matriz llena se tiene que para el tiempo de ensamblado la comlejidad asintotica tiende hacia 0(N^2) desde O(N),  al igual que para el tiempo de solucion. eso es ya que al tener matris llena mayor el programa utilizara mucha mas memoria ya que tendra que recorrer la matriz con muchisimos mas ceros. Para el caso de la matriz dispersa se aprecia un comportamiento mucho mas centrado hacia  O(N) tanto para el tiempo de ensamblado como para el de solucion. Esto se produce que que al tener matrices dispersas los tiempos de ensamblado y solucion  tienen aumentos mucho menos exponenciales que las matrices lenas ya que se recorren de una manera mucho mas eficiente.
+
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+
+- Para el caso de matrices llenas el comportamiento aparente aumenta de manera brusca, esto se debe a la gran cantidad de datos que debe procesar el programa. Mientras que para las matrices dispersas, al ser mas pequeñas se puede ver un comportamiento mas lineal y mas eficiente
+
 ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
-![IMG_6925](https://user-images.githubusercontent.com/88339852/132022614-c3c2aa73-5c39-45cc-a868-61c3eae1e9ac.jpg)
+
+- Para ambos casos nota estabilidad en las corridas, se pueden notar pequeños incremento de tiepo en alguno de los casos pero haciendo una vista generar se notan muy estables.
+
 
