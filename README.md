@@ -116,7 +116,8 @@ ENTREGA 6
 CODIGO LAPLACIANA LLENA
 
 
-```def laplaciana_llena(N, dtype):
+```
+def laplaciana_llena(N, dtype):
     A = zeros((N,N) , dtype=dtype)
     
     for i in range(N):
@@ -127,14 +128,17 @@ CODIGO LAPLACIANA LLENA
                 A[j,i] = -1
         
         
-    return(A)```
+    return(A)
+ ```
 
 CODIGO LAPLACIANA DISPERSA
 
-```def laplaciana_dispersa(N,dtype):
-    return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)```
+```
+def laplaciana_dispersa(N,dtype):
+    return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)
+ ```
 
-``````
+
 COMPLEJIDAD ALGORITMICA DE SOLVE
 
 Se presentaron problemas con subir imagenes al readme por lo que las graficas estan presentes 
