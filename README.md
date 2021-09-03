@@ -155,4 +155,5 @@ Comente las diferencias que ve en el comportamiento de los algoritmos en el caso
 ¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+![IMG_6925](https://user-images.githubusercontent.com/88339852/132022614-c3c2aa73-5c39-45cc-a868-61c3eae1e9ac.jpg)
 
