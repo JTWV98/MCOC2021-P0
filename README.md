@@ -148,7 +148,9 @@ Comente las diferencias que ve en el comportamiento de los algoritmos en el caso
 
 COMPLEJIDAD ALGORITMICA DE INV
 
-![REDIMIENTO_INV_LLENA](https://user-images.githubusercontent.com/88339852/132021295-020d9301-806e-4c8c-8e19-37788f5bfa53.png)![RENDIMIENTO_INV_DISPERSA](https://user-images.githubusercontent.com/88339852/132021306-9d8307de-d6b3-4133-85ff-e68d50d0d32f.png)
+![image](https://user-images.githubusercontent.com/88339852/132021945-f3f6f211-d5cd-49e5-80c2-9db2c4e0767d.png)
+
+
 Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
 ¿Cual parece la complejidad asintótica (para 𝑁→∞)  para el ensamblado y solución en ambos casos y porqué?
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
