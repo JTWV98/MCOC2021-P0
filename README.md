@@ -128,12 +128,12 @@ CODIGO LAPLACIANA LLENA
         
         
     return(A)```
-
-
-CODIGO LAPLACIANA DISPERSA
-
 ```def laplaciana_dispersa(N,dtype):
     return 2*sparse.eye(N,dtype=dtype)-sparse.eye(N,N,1,dtype=dtype)-sparse.eye(N,N,-1,dtype=dtype)```
+``````
+CODIGO LAPLACIANA DISPERSA
+
+
 
 
 COMPLEJIDAD ALGORITMICA DE SOLVE
